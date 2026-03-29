@@ -1,0 +1,16 @@
+{
+  "distribution": {
+    "type": "uniform",
+    "low": 0.0,
+    "high": 1.0
+  },
+  "objective": {
+    "type": "builtin",
+    "name": "sum_squares"
+  },
+  "technique": "standard",
+  "batch_size": 500,
+  "run_mode": "fixed",
+  "n_batches": 40,
+  "use_parallel": false
+}
